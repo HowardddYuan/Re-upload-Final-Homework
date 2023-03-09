@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{text-decoration: none;}
+
+.wrap{width: 1002px;
+margin:0 auto;}
+
+.header{margin-bottom: 10px;}
+
+.header-top{display: flex;
+    justify-content: flex-end;
+    background-color:#F5F5F5;
+}
+
+.header-top li{display: block;
+padding:5px;}
+
+.header-top li:hover{background-color: #BABABA;}
+
+.header-bottom{display: flex;
+justify-content: space-between;}
+
+.info{display: flex;}
+
+.info li{padding:15px;
+display: block;
+border-bottom: solid transparent 5px;
+color:#1dcd99;
+cursor: pointer;}
+
+.info li:hover{border-bottom: #1dcd99 solid 5px;}
+
+.banner{position:relative;
+margin-bottom:15px}
+
+.banner h1{position:absolute;
+top:130px;
+padding:15px;
+color:white;
+font-size: 32px;
+background: rgba(0,0,0,0.5);
+width:972px;
+}
+
+.course{display: flex;
+justify-content: space-around;
+margin-bottom:75px}
+
+.course>li{width:300px;
+line-height: 25px;
+padding:10px;
+border:#BABABA solid 1px;
+box-shadow:3px 3px 3px #BABABA;
+cursor: pointer;
+}
+
+.course>li:hover{box-shadow: 5px 5px 5px #545454;}
+
+.course h2{text-align: center;
+font-weight: bold;
+margin-bottom: 8px;}
+
+.intro li{list-style-type: disc;
+margin-left: 20px;
+}
+
+.comparison{text-align: center;
+font-weight: bold;
+font-size: 24px;
+margin-bottom: 40px;}
+
+.nav{justify-content: center;
+display: flex;
+margin-bottom: 75px;}
+
+.nav-head{display: flex;
+justify-content: space-around;
+width:900px;
+background-color:#BABABA;
+border-top: 1px solid #969696;}
+
+.nav th{font-weight: bold;
+padding: 10px;
+text-align: center;}
+
+.nav tr{display: flex;
+    justify-content: space-around;
+border-bottom: #CFCFCF solid 1px;
+border-top: #CFCFCF solid 1px;
+width:900px;
+}
+
+.nav td{padding:10px;
+    width:225px;
+    display: block;
+}
+
+.nav tr:hover{background-color: #969696;}
+
+.footer{background: linear-gradient(to bottom,#00654a,#009972);
+width: 1002px;
+height:350px;
+margin-bottom: 100px;
+position: relative;}
+
+.description{justify-content: center;
+display: flex;
+position: relative;}
+
+.description p{color:white;
+font-size: 24px;
+line-height: 30px;
+position: absolute;
+top:30px;
+}
+
+.footer textarea{position: absolute;
+bottom:15px;
+left: 10px;
+-webkit-border-radius: 5px}
+
+.comment-area{display: flex;
+flex-direction: column;
+justify-content: space-around;
+height:200px;
+position: absolute;
+right: 15px;
+bottom: 30px;}
+
+.comment-area label{color: white;}
+
+.comment-area input{width:450px;
+    margin-right:25px;
+    height:30px;
+    -webkit-border-radius: 5px;
+border:transparent 1px solid}
+
+.comment-area .btn{background-color: #00cc98;
+width:60px;
+height: 30px;
+border: solid transparent 1px;
+cursor: pointer;
+border-radius: 10% 10% 10% 10%;
+color: white;
+margin-left: 400px;
+margin-top: 10px;}
+
+.comment-area .btn:hover{background-color: #00654a;
+color: black;}
